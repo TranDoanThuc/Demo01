@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\Nguyen Thai Son\f1\f1\bin\Debug\f1.exe
+C:\Users\HP\Desktop\Nguyen Thai Son\f1\f1\bin\Debug\f1.pdb
+C:\Users\HP\Desktop\Nguyen Thai Son\f1\f1\obj\x86\Debug\f1.Danh_Mục_Quản_Lý_Sinh_Viên.resources
+C:\Users\HP\Desktop\Nguyen Thai Son\f1\f1\obj\x86\Debug\f1.Form1.resources
+C:\Users\HP\Desktop\Nguyen Thai Son\f1\f1\obj\x86\Debug\f1.Properties.Resources.resources
+C:\Users\HP\Desktop\Nguyen Thai Son\f1\f1\obj\x86\Debug\f1.csproj.GenerateResource.Cache
+C:\Users\HP\Desktop\Nguyen Thai Son\f1\f1\obj\x86\Debug\f1.exe
+C:\Users\HP\Desktop\Nguyen Thai Son\f1\f1\obj\x86\Debug\f1.pdb

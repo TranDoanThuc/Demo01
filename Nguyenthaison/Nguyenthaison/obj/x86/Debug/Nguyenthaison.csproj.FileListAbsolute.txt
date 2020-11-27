@@ -1,0 +1,10 @@
+C:\Users\HP\Desktop\Nguyen Thai Son\Nguyenthaison\Nguyenthaison\bin\Debug\Nguyenthaison.exe
+C:\Users\HP\Desktop\Nguyen Thai Son\Nguyenthaison\Nguyenthaison\bin\Debug\Nguyenthaison.pdb
+C:\Users\HP\Desktop\Nguyen Thai Son\Nguyenthaison\Nguyenthaison\obj\x86\Debug\Nguyenthaison.Form1.resources
+C:\Users\HP\Desktop\Nguyen Thai Son\Nguyenthaison\Nguyenthaison\obj\x86\Debug\Nguyenthaison.Properties.Resources.resources
+C:\Users\HP\Desktop\Nguyen Thai Son\Nguyenthaison\Nguyenthaison\obj\x86\Debug\Nguyenthaison.csproj.GenerateResource.Cache
+C:\Users\HP\Desktop\Nguyen Thai Son\Nguyenthaison\Nguyenthaison\obj\x86\Debug\Nguyenthaison.exe
+C:\Users\HP\Desktop\Nguyen Thai Son\Nguyenthaison\Nguyenthaison\obj\x86\Debug\Nguyenthaison.pdb
+C:\Users\HP\Desktop\Nguyen Thai Son\Nguyenthaison\Nguyenthaison\obj\x86\Debug\Nguyenthaison.NguyenTo.resources
+C:\Users\HP\Desktop\Nguyen Thai Son\Nguyenthaison\Nguyenthaison\bin\Debug\Nguyenthaison.exe.config
+C:\Users\HP\Desktop\Nguyen Thai Son\Nguyenthaison\Nguyenthaison\obj\x86\Debug\Nguyenthaison.QuanLyBenhNhan.resources

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QuanLyBenhNhan">
+  <DataContextMoniker Name="/QuanLyBenhNhanDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f3b86cbd-6b42-4815-a111-52357ef44d6d" absoluteBounds="0.75, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QuanLyBenhNhanDataContext/benhnhan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7bbd5ebc-3768-4cc3-a975-44ce9ef4cc28" absoluteBounds="0.765, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c3f5780f-de9b-4f90-ad20-0abf3b14ef08" absoluteBounds="0.75, 0.875, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/QuanLyBenhNhanDataContext/dichvu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5d2d1cda-124a-4d66-8e0f-037ec3a3aba7" absoluteBounds="0.765, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="29801aa6-43d0-4219-a334-93abdd0e5177" absoluteBounds="3.5, 0.875, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/QuanLyBenhNhanDataContext/dangkidichvu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6619ecdb-ad6f-4c97-bfde-904b9d189d1c" absoluteBounds="3.515, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 4.53929768880208); (4.5 : 4.53929768880208); (4.5 : 2.2612939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyBenhNhanDataContext/benhnhan/benhnhan_dangkidichvu" />
+      <nodes>
+        <classShapeMoniker Id="f3b86cbd-6b42-4815-a111-52357ef44d6d" />
+        <classShapeMoniker Id="29801aa6-43d0-4219-a334-93abdd0e5177" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.56814697265625); (3.5 : 1.56814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyBenhNhanDataContext/dichvu/dichvu_dangkidichvu" />
+      <nodes>
+        <classShapeMoniker Id="c3f5780f-de9b-4f90-ad20-0abf3b14ef08" />
+        <classShapeMoniker Id="29801aa6-43d0-4219-a334-93abdd0e5177" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

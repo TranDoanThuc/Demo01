@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="quanlybenhnhan" Class="QuanLyBenhNhanDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-P51T87R\SQLEXPRESS;Initial Catalog=quanlybenhnhan;Integrated Security=True" SettingsObjectName="Nguyenthaison.Properties.Settings" SettingsPropertyName="quanlybenhnhanConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.benhnhan" Member="benhnhans">
+    <Type Name="benhnhan">
+      <Column Name="mabn" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="hoten" Type="System.String" DbType="NChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="gioitinh" Type="System.String" DbType="NChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="ngaysinh" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="benhnhan_dangkidichvu" Member="dangkidichvus" ThisKey="mabn" OtherKey="mabn" Type="dangkidichvu" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dichvu" Member="dichvus">
+    <Type Name="dichvu">
+      <Column Name="madichvu" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tendichvu" Type="System.String" DbType="NChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="dongia" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="dichvu_dangkidichvu" Member="dangkidichvus" ThisKey="madichvu" OtherKey="madichvu" Type="dangkidichvu" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dangkidichvu" Member="dangkidichvus">
+    <Type Name="dangkidichvu">
+      <Column Name="mabn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="madichvu" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ngaydangki" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="benhnhan_dangkidichvu" Member="benhnhan" ThisKey="mabn" OtherKey="mabn" Type="benhnhan" IsForeignKey="true" />
+      <Association Name="dichvu_dangkidichvu" Member="dichvu" ThisKey="madichvu" OtherKey="madichvu" Type="dichvu" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
